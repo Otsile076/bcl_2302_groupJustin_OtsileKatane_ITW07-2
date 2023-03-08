@@ -1,0 +1,76 @@
+
+
+#header { 
+    background: url(../Images/IMG_20171208_141234.jpg);
+    background-color: rgba(0, 0, 0, 0.9);
+    background-size: cover;
+    background-position: center;
+    color: magenta; 
+    font-family: verdana, ariel, verdana, georgia, tahoma;
+    font-weight: bold;
+    border-color: black;
+    border-right-color: beige;
+    border-width: 50;
+    text-align: center
+
+  }
+#nav {
+    font-family: verdana;
+    color: whitesmoke; 
+    padding: 100px;
+    border-color: black; 
+    border-width: 3px;
+    background-color:black;
+    width: 200px;
+    
+  }  
+#main {
+    padding: 20px;
+    border-color: black; 
+    border-width: 3px;
+    background-color: olive;
+  }
+footer {
+    color: whitesmoke;
+    padding: 20px;
+    background-color: black;
+  }  
+#image{
+  clip-path: circle();
+}
+body{
+  border-style: solid;
+
+}
+h2 {
+  color: whitesmoke;
+}
+#container{
+  display: flex;
+justify-content: space-between;
+background-color: beige;
+margin: aqua;
+}
+
+.link_2{
+  position: relative;left: 150px; bottom: 20px;
+}
+
+.link_3{
+  position: relative;left: 300px; bottom: 40px;
+}
+.link_4{
+  position: relative;left: 450px; bottom: 60px;
+}
+.tag_3{
+  position: relative; top: 150px;
+}
+.tag_2{
+  position: relative; top: 100px;
+}
+.tag_1{
+  position: relative; top: 50px;
+}
+.enquiries{
+    position: relative; left: 1000px; bottom: 170px;
+}
